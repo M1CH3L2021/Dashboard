@@ -102,13 +102,11 @@ export function DataProvider({ children }: DataProviderProps) {
         percentualDeParticipacao: clientToBeEdited.usinas[0].percentualDeParticipacao,
       }]
     })
-
     const editedClient = response.data
 
     const ClientListWithoutEditedClient = clients.filter(client => {
       return client.id !== clientToBeEdited.id
     })
-
     const newClientList = [...ClientListWithoutEditedClient, editedClient]
     
     newClientList.sort((a, b) => {
