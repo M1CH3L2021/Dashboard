@@ -45,7 +45,7 @@ Na página inicial se encontra o gráfico dos dados da usina e as estatísticas 
 
 o Gráfico apresenta os dados de uma variável em funcão do tempo. Por padrão, a variável inicial será a tensão (V), sendo possível alterar esta variável por outra disponível na lista suspensa, como mostra a imagem abaixo.
 
-![Lista de variáveis](./READMEImages/caixadeSelecao.png)
+![Lista de variáveis](./READMEImages/caixaDeSelecao.png)
 
 ### Página Clientes
 
